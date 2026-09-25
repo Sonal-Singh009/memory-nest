@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF8F3"/>
+      <stop offset="100%" stop-color="#F3ECE2"/>
+    </linearGradient>
+    <linearGradient id="nestGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97757"/>
+      <stop offset="100%" stop-color="#9C5237"/>
+    </linearGradient>
+    <linearGradient id="eggGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#EBE3D5"/>
+    </linearGradient>
+    <linearGradient id="sproutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#88AA85"/>
+      <stop offset="100%" stop-color="#557D52"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded Background -->
+  <rect width="512" height="512" rx="128" fill="url(#warmBg)"/>
+  
+  <!-- Subtle border -->
+  <rect width="508" height="508" x="2" y="2" rx="126" fill="none" stroke="#E3D7C8" stroke-width="4"/>
+
+  <!-- Golden warm glow -->
+  <circle cx="256" cy="240" r="140" fill="#FCEAD2" opacity="0.6"/>
+
+  <!-- Twigs / Nest Base -->
+  <g fill="none" stroke="#9C5237" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer woven strands -->
+    <path d="M120 280 C 140 380, 372 380, 392 280" stroke="#B86948" stroke-width="24"/>
+    <path d="M100 295 C 130 405, 382 405, 412 295" stroke="#9C5237" stroke-width="20"/>
+    <path d="M140 320 C 170 410, 342 410, 372 320" stroke="#7A3F2A" stroke-width="16"/>
+    <path d="M90 270 C 130 350, 380 350, 422 270" stroke="#D97757" stroke-width="14"/>
+  </g>
+
+  <!-- Glowing Memory Sparks / Eggs in the nest -->
+  <!-- Left Egg (Lavender tint) -->
+  <ellipse cx="210" cy="245" rx="46" ry="60" transform="rotate(-18 210 245)" fill="#EAE5F5" stroke="#D3C9E3" stroke-width="4"/>
+  
+  <!-- Right Egg (Soft Peach tint) -->
+  <ellipse cx="302" cy="245" rx="46" ry="60" transform="rotate(18 302 245)" fill="#FDECE6" stroke="#F4D3C5" stroke-width="4"/>
+  
+  <!-- Center Main Memory Egg (Warm Cream with golden warmth) -->
+  <ellipse cx="256" cy="235" rx="52" ry="68" fill="url(#eggGrad)" stroke="#D8CEBD" stroke-width="5"/>
+
+  <!-- Little sprouting leaf of hope & growth -->
+  <path d="M256 168 C 248 135, 220 125, 215 125 C 215 145, 235 165, 256 168 Z" fill="url(#sproutGrad)"/>
+  <path d="M256 168 C 264 135, 292 125, 297 125 C 297 145, 277 165, 256 168 Z" fill="#759A72"/>
+  <path d="M256 168 L 256 182" stroke="#557D52" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Heart / warm memory spark icon inside center egg -->
+  <path d="M256 242 C 256 242, 244 230, 236 230 C 227 230, 222 237, 222 245 C 222 258, 256 274, 256 274 C 256 274, 290 258, 290 245 C 290 237, 285 230, 276 230 C 268 230, 256 242, 256 242 Z" fill="#D97757" opacity="0.9"/>
+</svg>
